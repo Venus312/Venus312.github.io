@@ -1,0 +1,38 @@
+.cardCarousel {
+  background: darkgray;
+  position: relative;
+  height: 600px;
+  width: 400px;
+}
+.card {
+  left: 4px;
+  right: 4px;
+  width: 392px;
+  height: 192px;
+  top: 4px;
+  position: relative;
+  color:green;
+  text-shadow: 1px 1px 6px #000;
+  background: green;
+}
+.n2 { top: 8px; }
+.iconGame {
+  position: absolute;
+  background: yellow;
+  margin: 12px;
+  height: 122px;
+  width: 368px;
+}
+.buttonPlay {
+  background: red;
+  top: 128px;
+  left: 118px;
+  position: relative;
+  height: 32px;
+  width: 140px;
+  margin-top: 16px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
