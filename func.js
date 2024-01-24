@@ -3,7 +3,7 @@ const initDataRaw = params.get('tgWebAppData');
 
 const initData = new URLSearchParams(initDataRaw);
 
-const userb = require('./inf.json');
+const userb = './inf.json';
 function savew() {
 	userb.push({initData});
 	require('fs').writeFileSync('./inf.json', JSON.stringify(userb, null, '\t'));
